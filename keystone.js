@@ -10,8 +10,8 @@ var keystone = require('keystone');
 // and documentation.
 
 keystone.init({
-	'name': 'PrathaaDesignStudio',
-	'brand': 'PrathaaDesignStudio',
+	'name': 'Prathaa Design Studio',
+	'brand': 'Prathaa Design Studio',
 
 	'sass': 'public',
 	'static': 'public',
@@ -44,9 +44,10 @@ keystone.set('routes', require('./routes'));
 
 // Configure the navigation bar in Keystone's Admin UI
 keystone.set('nav', {
-	galleries: 'galleries',
 	users: 'users',
 	customers: 'customers',
+	orders: 'orders',
+	designer: 'designers',
 });
 
 // Start Keystone to connect to your database and initialise the web server

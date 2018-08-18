@@ -9,8 +9,13 @@
 
 exports.create = {
 	User: [
-		{ 'name.first': 'Admin', 'name.last': 'User', 'email': 'admin', 'phone': '9518807001', 'password': 'admin', 'isAdmin': true },
+		{ 'name.first': 'Admin', 'name.last': 'User', 'email': 'admin@prathaadesignstudio.com', 'password': 'admin', 'isAdmin': true },
+		{ 'name.first': 'Karan', 'name.last': 'Oberoi', 'email': 'koberoi1017@gmail.com', 'password': 'admin', 'isAdmin': true },
+		{ 'name.first': 'Tania', 'name.last': 'Oberoi', 'email': 'taniaoberoi.prathaa@gmail.com', 'password': 'admin', 'isAdmin': true },
+		{ 'name.first': 'Puja', 'name.last': 'Oberoi', 'email': 'pujaobe@yahoo.com', 'password': 'admin', 'isAdmin': true },
 	],
+
+	
 };
 
 /*
