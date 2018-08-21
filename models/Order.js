@@ -35,13 +35,12 @@ Order.add({
 	sleeveMori: { type: String, index: true},
 	lengthLehnghaPaticot: { type: String, index: true},
 	lowerWaist: { type: String, index: true},
+	hipForBottoms: { type: String, index: true},
 	mori: { type: String, index: true},
 	thigh: { type: String, index: true},
 	calf: { type: String, index: true},
 	crotch: { type: String, index: true},
-	notes: {
-		brief: { type: Types.Html, wysiwyg: true, height: 150 },
-	},
+	notes: { type: Types.Html, wysiwyg: true, height: 150 },
 });
 
 
